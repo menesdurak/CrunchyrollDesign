@@ -78,7 +78,7 @@
                 android:fontFamily="@font/lato"
                 android:text="The Rising of the Shield Hero"
                 android:textColor="@color/white"
-                android:textSize="20sp"
+                android:textSize="24sp"
                 app:layout_constraintBottom_toTopOf="@id/tvMainDub" />
 
             <TextView
@@ -134,9 +134,10 @@
                 android:paddingVertical="4dp"
                 android:paddingStart="16dp"
                 android:paddingEnd="8dp"
+                android:fontFamily="@font/lato"
                 android:text="TOP PICKS FOR YOU"
                 android:textColor="@color/white"
-                android:textSize="20sp"
+                android:textSize="18sp"
                 app:layout_constraintTop_toBottomOf="@id/viewGradient" />
 
             <androidx.recyclerview.widget.RecyclerView
@@ -180,7 +181,7 @@
                     android:fontFamily="@font/lato"
                     android:text="The Rising of the Shield Hero"
                     android:textColor="@color/white"
-                    android:textSize="16sp"
+                    android:textSize="18sp"
                     android:textStyle="bold"
                     app:layout_constraintStart_toEndOf="@id/ibPlay"
                     app:layout_constraintTop_toTopOf="@id/ibPlay" />
@@ -223,7 +224,7 @@
                 android:paddingBottom="4dp"
                 android:text="MOST POPULAR"
                 android:textColor="@color/white"
-                android:textSize="20sp"
+                android:textSize="18sp"
                 app:layout_constraintTop_toBottomOf="@id/conLayContinue" />
 
             <androidx.recyclerview.widget.RecyclerView
