@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Home" android:icon="@drawable/ic_home"/>
+    <item android:title="My Lists" android:icon="@drawable/ic_bookmark_outlined"/>
+    <item android:title="Browse" android:icon="@drawable/ic_grid_layout"/>
+    <item android:title="Simulcasts" android:icon="@drawable/ic_simulcasts"/>
+    <item android:title="Account" android:icon="@drawable/account"/>
+</menu>

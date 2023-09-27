@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Crunchyroll" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <item name="android:statusBarColor">@color/black</item>
+    </style>
+
+    <style name="CustomBottomNavStyle" parent="Widget.Design.BottomNavigationView">
+        <!-- Customize the selected item text color -->
+        <item name="android:textColor">@color/orange</item>
+        <!-- Customize the selected item icon color -->
+        <item name="itemIconTint">@color/orange</item>
+    </style>
+
+    <style name="Theme.Crunchyroll" parent="Base.Theme.Crunchyroll" />
+</resources>
